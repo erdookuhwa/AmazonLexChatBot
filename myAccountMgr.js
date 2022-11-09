@@ -29,7 +29,7 @@ const orderIntent = (intentRequest, callback) => {
   const account = getAccount(slots.TypeOfAccount, slots.UserName, slots.Password);
 
   if (!account) {
-    callback(elicitSlot(sessionAttributes, 'GetOrderDetails', slots, 'UserName', 'Password' {
+    callback(elicitSlot(sessionAttributes, 'GetOrderDetails', slots, 'UserName', 'Password', {
       contentType: 'PlainText',
       content: 'No accounts have been found with this username and password please try again',
     }));
