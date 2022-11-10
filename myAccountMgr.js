@@ -12,7 +12,7 @@ const accounts = [
     type: 'prime',
     username: 'eve',
     password: '12345678',
-    order: 'Herman Miller Embody Ergonomic Office Chair',
+    order: 'Herman Miller Embody Ergonomic Office Chair'
   },
 ];
 
